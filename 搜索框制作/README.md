@@ -1,0 +1,1 @@
+`**<input/>**的局限性: <input/>是自闭合标签,即不能嵌套其他html标签,不能定义复杂样式按钮  使用button标签替代:<button><img src="icon.jpg" width="20"/>this is button</button> 可实现图文混排的复杂按钮  当<input>标签的type="submit"时，可以提交表单内容到服务器而不借助任何javascript代码，如果写  type="button"的时候这个效果是不可能实现的 如果要实现提交表达的效果，必需要把type="submit"的按钮放置于form标签内`

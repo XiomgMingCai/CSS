@@ -1,0 +1,55 @@
+body {
+    background-color: #333;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bj-div {
+    background-image: url("imgs/48.jpg") ;
+    width: 1616px;
+    height: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    margin: -11px 19px 0 0 ;
+    background-image: url("imgs/logo.png");
+    width: 107px;
+    height: 53px;
+    float: left;
+
+
+}
+
+form {
+    padding: 5px;;
+    float: left;
+    background-color: #ffffff;
+}
+
+.search-input-text {
+    width: 300px;
+    border: 0;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    outline: none;
+/*//outline：none;去除输入框轮廓*/
+}
+
+.search-input-submit {
+    border: 0;
+    background-image: url("imgs/search-button.png") ;
+    width: 29px;
+    height: 29px;
+    float: left;
+    outline: none;
+}
+.search-box{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
